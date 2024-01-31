@@ -1,0 +1,50 @@
+'''
+================================================================================
+Milestone 3
+
+Nama  : Permata Hajjarianti
+Batch : FTDS-011-HCK
+
+File ini dibuat untuk menjawab pertanyaan conceptual problems pada milestone 3.
+================================================================================
+'''
+
+CONCEPTUAL PROBLEM
+
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+    NoSQL adalah jenis sistem manajemen datbase yang dirancang untuk menampung dan mengelola data yang tidak terstruktur dan semi-terstruktur. Berbeda dengan database relasional yang menggunakan tabel dan 
+    skema tetap, NoSQL lebih fleksibel karena tidak memerlukan skema tetap dan dapat menangani jenis data yang beragam dan berubah-ubah, seperti teks, media sosial, maupun big data.
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System (RDBMS)!
+   - NoSQL : Digunakan ketika kita bekerja dengan volume data yang sangat besar, struktur data yang tidak teratur atau sering berubah, dan ketika kebutuhan skalabilitas horizontal. NoSQL juga cocok untuk 
+            pengembangan yang cepat dan iteratif karena fleksibilitasnya.
+   - RDBMS : Lebih sesuai untuk aplikasi yang memerlukan integritas data yang kuat, kompleksitas transaksi, dan hubungan yang jelas antara berbagai entitas data. 
+            RDBMS biasanya digunakan ketika struktur data yang kita miliki dapat dengan mudah didefinisikan dan tidak sering berubah.
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+   Tools/platform selain ElasticSearch yaitu,
+   - MongoDB : MongoDB merupakan sebuah database NoSQL yang menyimpan dokumen atau data dalam format JSON. Adapun keunggulan MongoDB yaitu skalabilitas, fleksibilitas struktur data, dan kemudahan integrasi 
+                dengan banyak bahasa pemrograman.
+   - Cassandra : Cassandra merupakan database NoSQL yang memiliki kemampuan skalabilitas yang tinggi dan arsitektur yang tahan terhadap kegagalan (fault-tolerant). Cassandra cocok untuk aplikasi yang 
+                memerlukan akses cepat ke data besar yang tersebar di banyak server atau data center.
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+    Airflow merupakan platform open-source yang digunakan untuk merancang, mengembangkan, menjadwalkan, dan memantau alur kerja (workflow) yang kompleks.
+    Hal ini berguna untuk mengotomatiskan skrip batch, pipeline data, dan operasi lain yang harus dijalankan secara periodik dan konsisten.
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+    Great Expectations adalah alat untuk validasi data, profiling, dan dokumentasi data. Alat ini memungkinkan pengguna untuk menetapkan ekspektasi atau asumsi tentang data yang dimiliki, seperti format,
+    batasan nilai, atau frekuensi, dan kemudian memeriksa apakah data yang masuk atau proses yang dilakukan benar-benar memenuhi ekspektasi tersebut. Ini sangat berguna untuk memastikan kualitas data 
+    sebelum digunakan dalam analisis atau aplikasi lainnya.
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+    Batch processing adalah metode pemrosesan data dimana sejumlah data dikumpulkan selama periode waktu dan diproses secara keseluruhan pada satu waktu. Batch processing juga dapat diartikan sebagai
+    metode yang digunakan pada komputer untuk menyelesaikan tugas data berulang dengan volume tinggi secara berkala. 
+    
+    Contoh kasus:
+    contoh kasus yaitu penggunaan Batch Processing dalam pemrosesan transaksi akhir hari untuk bank, pengolahan data gaji, atau pembaruan inventaris. Tools yang sering digunakan yaitu seperti apache hadoop 
+    untuk pemrosesan data besar dan apache spark untuk pemrosesan yang membutuhkan kecepatan tinggi. Batch processing sangat efektif ketika kita perlu memproses data yang besar yang tidak memerlukan 
+    pemrosesan real time.
+
+    Tools :
+    Hadoop, Airflow, Flink, dan Spark.
