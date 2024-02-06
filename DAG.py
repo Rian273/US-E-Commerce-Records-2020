@@ -1,10 +1,5 @@
 '''
 ============================================================================================================
-Milestone 3
-
-Nama  : Permata Hajjarianti
-Batch : FTDS-011-HCK
-
 File ini dibuat untuk melakukan automatisasi transform dan load data (fecthing) ke ElasticSearch. 
 Adapun dataset yang dipakai adalah dataset mengenai rincian e-commerce di United States pada tahun 2020.
 ============================================================================================================

@@ -1,10 +1,5 @@
 '''
 ================================================================================
-Milestone 3
-
-Nama  : Permata Hajjarianti
-Batch : FTDS-011-HCK
-
 File ini dibuat untuk menjawab pertanyaan conceptual problems pada milestone 3.
 ================================================================================
 '''
