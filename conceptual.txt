@@ -1,6 +1,6 @@
 '''
 ================================================================================
-File ini dibuat untuk menjawab pertanyaan conceptual problems pada milestone 3.
+File ini dibuat untuk menjawab pertanyaan conceptual problems.
 ================================================================================
 '''
 
